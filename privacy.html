@@ -31,23 +31,29 @@
       <p>If you grant Calendar access, Aevia may read calendar information to understand your schedule and protect fixed commitments during planning. External Calendar events are treated as read-only inside Aevia.</p>
 
       <h2>Health data</h2>
-      <p>If you grant access to supported Health data, Aevia may use sleep information on your device to provide planning context and energy-related insights. Missing Health data is treated as unavailable rather than as zero.</p>
+      <p>If you grant access to supported Health data, Aevia reads sleep measurements on your device to provide planning context and energy-related insights. Aevia does not write Health data. Missing Health data is treated as unavailable rather than as zero.</p>
       <p>Health data is not sent to cloud AI providers in the current release build.</p>
 
       <h2>Cloud AI</h2>
-      <p>Cloud GPT and Claude functionality are disabled in the current release build. No live cloud AI provider request is required for the core app experience.</p>
+      <p>Cloud GPT and Claude functionality are disabled in the current release build. The app blocks requests to those cloud AI providers in this release.</p>
+
+      <h2>Voice input</h2>
+      <p>Optional voice input uses the microphone and on-device speech recognition on supported iPhones. Aevia does not send your voice recordings or transcripts to cloud AI providers in this release.</p>
+
+      <h2>Tracking and analytics</h2>
+      <p>The current app does not include advertising, tracking, or remote analytics. Planning, Calendar, and sleep data are processed on your device and are not collected by an Aevia server.</p>
 
       <h2>Accounts</h2>
       <p>The current release does not require an account for its core functionality. If a future version adds accounts, cloud sync, analytics, or cloud AI features, this policy and the related App Store privacy disclosures will be updated to reflect those changes.</p>
 
       <h2>Permissions</h2>
-      <p>Aevia may request device permissions only when they are relevant to a feature you choose to use. You can change granted permissions at any time in iOS Settings.</p>
+      <p>Calendar, Health, microphone, and speech permissions are optional. You can decline them and continue using the core planning features. You can change granted permissions at any time in iOS Settings.</p>
 
       <h2>Changes to this policy</h2>
       <p>This policy may be updated when Aevia changes how features or data are handled. The “Last updated” date above will reflect the latest version.</p>
 
       <h2>Contact</h2>
-      <p>For privacy questions or support, please use the Aevia support page.</p>
+      <p>For privacy questions or support, please use the Aevia support page. Support requests use GitHub Issues, a separate service governed by GitHub’s privacy policy. Information you choose to post in a public support issue is visible publicly; please do not include Health measurements or private Calendar details.</p>
       <p><a class="inline-link" href="./">Go to Aevia Support</a></p>
     </section>
 
